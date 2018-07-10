@@ -15,13 +15,13 @@ function draw() {
     
 	fill(value1, value2, value2);
   }
-    angle += 5;
+/*     angle += 5;
     var val = cos(radians(angle)) * 12.0;
     for (var a = 0; a < 360; a += 75) {
       var xoff = cos(radians(a)) * val;
       var yoff = sin(radians(a)) * val;
       fill(0);
-      ellipse(mouseX + xoff, mouseY + yoff, val, val);
+      ellipse(mouseX + xoff, mouseY + yoff, val, val); */
 //  ellipse(mouseX, mouseY, 80, 80);
 }
 
