@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16" tilecount="3520" columns="44">
+  <image source="../images/tiles.png" width="705" height="1280"/>
+ </tileset>
+ <layer name="backgroundLayer" width="10" height="10">
+  <data encoding="csv">
+95,95,95,95,95,95,95,95,95,95,
+95,95,95,95,95,95,95,95,95,95,
+95,95,95,95,95,95,95,95,95,95,
+95,95,95,95,95,95,95,95,95,95,
+95,95,95,95,95,95,95,95,95,95,
+95,95,95,95,95,95,95,95,95,95,
+95,95,95,95,95,95,95,95,95,95,
+95,95,95,95,95,95,95,95,95,95,
+95,95,95,95,95,95,95,95,95,95,
+95,95,95,95,95,95,95,95,95,95
+</data>
+ </layer>
+ <layer name="blockedLayer" width="10" height="10">
+  <data encoding="csv">
+224,224,224,224,224,224,224,224,224,224,
+224,0,0,0,0,0,0,0,0,224,
+224,0,0,0,0,0,0,0,0,224,
+224,0,0,0,0,0,0,0,0,224,
+0,0,0,0,0,0,0,0,0,224,
+0,0,0,0,0,0,0,0,0,224,
+224,0,0,0,0,0,0,0,0,224,
+224,0,0,0,0,0,0,0,0,224,
+224,0,0,0,0,0,0,0,0,224,
+224,224,224,224,0,0,224,224,224,224
+</data>
+ </layer>
+ <objectgroup name="objectsLayer"/>
+</map>
